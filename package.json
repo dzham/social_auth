@@ -1,0 +1,26 @@
+{
+  "name": "social_auth",
+  "version": "0.0.2",
+  "description": "javascript social auth",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dzham/social_auth.git"
+  },
+  "keywords": [
+    "social",
+    "auth",
+    "vue",
+    "javascript",
+    "oauth"
+  ],
+  "author": "Dzhamil Khametov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dzham/social_auth/issues"
+  },
+  "homepage": "https://github.com/dzham/social_auth#readme"
+}
