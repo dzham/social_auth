@@ -6,16 +6,16 @@
         // Node. Does not work with strict CommonJS, but
         // only CommonJS-like environments that support module.exports,
         // like Node.
-        exports = module.exports = SocialAuthDz;
+        exports = module.exports = SocialAuth;
         module.exports = factory();
     } else {
         // Browser globals (root is window)
-        root.SocialAuthDz = factory();
+        root.SocialAuth = factory();
     }
 }(this, function() {
     'use strict';
 
-    var SocialAuthDz = function () {
+    var SocialAuth = function () {
 
         this.providers = {
 
@@ -136,10 +136,10 @@
         };
 
         this.error = function (message) {
-            throw new Error('[SocialAuthDz]: ' + message);
+            throw new Error('[SocialAuth]: ' + message);
         }
 
     };
 
-    return SocialAuthDz;
+    return SocialAuth;
 }));
